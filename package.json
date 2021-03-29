@@ -36,7 +36,8 @@
     "helmet": "^4.4.1",
     "husky": "4",
     "moment": "^2.29.1",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "puppeteer": "^8.0.0"
   },
   "scripts": {
     "build": "tsc",

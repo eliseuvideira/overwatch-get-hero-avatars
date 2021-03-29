@@ -1,8 +1,8 @@
 .git/
+avatars/*
+!avatars/.gitkeep
 build/
-coverage/
 node_modules/
-test/
 .env
 *.error
 *.log
