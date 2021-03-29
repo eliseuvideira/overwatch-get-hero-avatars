@@ -35,10 +35,8 @@
     "express": "^4.17.1",
     "helmet": "^4.4.1",
     "husky": "4",
-    "knex": "^0.95.3",
     "moment": "^2.29.1",
-    "morgan": "^1.10.0",
-    "pg": "^8.5.1"
+    "morgan": "^1.10.0"
   },
   "scripts": {
     "build": "tsc",

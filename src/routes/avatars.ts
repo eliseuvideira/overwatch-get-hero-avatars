@@ -1,15 +1,15 @@
 import { Router } from 'express';
-import { getStatus } from '../endpoints/status';
+import { avatarsPost } from '../endpoints/avatars';
 
 const router = Router();
 
 /**
- * GET /status
- * @tag Status
+ * POST /avatars
+ * @tag Avatars
  * @response 204
  * @response default
  * @responseContent {Error} default.application/json
  */
-router.get('/status', getStatus);
+router.post('/avatars', avatarsPost);
 
 export default router;
